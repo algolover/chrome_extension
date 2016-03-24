@@ -1,0 +1,23 @@
+ {
+  "manifest_version": 2,
+
+  "name": "Bypass Youtube",
+  "description": "This extension allows you to watch and download protected(Age-restricted) Youtube videos(which requires Login) directly without signing in.
+  Features:
+  1.No ads or Pop-ups.
+  2.Download option also available.
+  3.Very Light, size < 1MB.
+  4.One click, Easy to Use.
+  ",
+  "version": "1.0",
+  "author":"Divyanshu Bansal",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title":"Bypass"
+  },
+  "permissions": [
+    "activeTab","https://ajax.googleapis.com/", "clipboardWrite","tabs" 
+  ]
+}
